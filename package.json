@@ -1,0 +1,19 @@
+{
+  "name": "tooltipdemocypress",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Saran",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:e2e": "cypress run --spec \"cypress/e2e/tooltip-demo.cy.js\""
+  },
+  "dependencies": {
+    "cypress": "^15.7.0"
+  },
+  "devDependencies": {
+    "cypress-image-snapshot": "^4.0.1"
+  }
+}
